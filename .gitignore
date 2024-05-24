@@ -1,0 +1,66 @@
+/vendor
+.env
+.env.backup
+/.vscode
+bootstrap
+database
+
+# Ignore .env file (contains environment-specific configurations)
+.env
+
+# Ignore node_modules/ and vendor/ directories (dependencies managed by npm and composer)
+node_modules/
+vendor/
+
+# Ignore compiled assets
+/public/storage
+/public/hot
+/public/uploads
+
+# Ignore IDE and editor config files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Laravel log files and local storage (to prevent large or sensitive files from being tracked)
+storage/*.key
+storage/app/public
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*.log
+
+# Ignore PHPUnit test result
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore Laravel Mix files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Composer files and artifacts
+composer.phar
+
+# Ignore Laravel cache files
+bootstrap/cache/*.php
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+*.orig
+*.old
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.~lock.*
+
+# Ignore zipped files
+*.zip
+
